@@ -156,7 +156,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/code2.jpg" class="d-block w-100" alt="Full Stack">
+                <img src="images/devloperdesk.jpg" class="d-block w-100" alt="Full Stack" style="height: 80vh;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Full Stack Devloper</h5>
                     <p>Full Stack Development is an immersive program, meticulously curated to provide you with the
@@ -167,7 +167,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/code6.jpg" class="d-block w-100" alt="Web Designer">
+                <img src="images/fulldevloper.jpg" class="d-block w-100" alt="Web Designer" style="height: 80vh;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Web Designer</h5>
                     <p>We create beautifully customized websites that meet your business needs, whether they are
@@ -178,7 +178,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/code7.jpg" class="d-block w-100" alt="Graphic Designer">
+                <img src="images/code3.jpg" class="d-block w-100" alt="Graphic Designer" style="height: 80vh;">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Graphic Designer</h5>
                     <p>A graphic designer is a professional within the graphic design and graphic arts industry who
@@ -203,7 +203,7 @@
         </button>
     </div>
 
-    <div class="alert alert-primary" role="alert">
+    <div class="alert alert-primary text-center" role="alert">
         This is I-Coder Site
     </div>
 
@@ -219,7 +219,6 @@
                             websites </p>
                         <a href="#" class="btn btn-primary">About More Information</a>
                     </div>
-
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 mx-auto my-3">
@@ -228,7 +227,8 @@
                     <div class="card-body">
                         <h5 class="card-title">FontendDevloper</h5>
                         <p class="card-text">This Full Stack Java Developer Job Guarantee Program is a comprehensive
-                            six-month program, in partnership with HIRIST and HackerEarth.</p>
+                            six-month program, in partnership with HIRIST and HackerEarth. The
+                            tools and technologies to full-stack applications</p>
                         <a href="#" class="btn btn-primary">About More Information</a>
                     </div>
 
@@ -279,7 +279,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
 
     <script src="Source/jquery.min.js"></script>
