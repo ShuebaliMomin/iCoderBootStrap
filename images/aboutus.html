@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Source/bootstrap.min.css">
+    <script src="Source/jquery.min.js"></script>
+    <script src="Source/bootstrap.min.js"></script>
+    <!-- <link rel="icon" href="images/power.jpg" type="image/gif" sizes="16x16"> -->
+    <title>iCoder - Heaven for programmers</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <span class="bi bi-house-door-fill"></i> </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="iCoder.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tools
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Full Stack.html">Full Stack</a></li>
+                            <li><a class="dropdown-item" href="WebDesign.html">WebDesign</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <li><a class="dropdown-item" href="#">Write for Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                </form>
+            </div>
+            <div class="mx-2">
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Login
+                </button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">
+                    SignUp
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login UpModal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login to iCoder</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SignUp Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Get in iCoder aacount</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cexampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="display-1 fw-bold text-center bg-warning"> About Us</h1>
+    <div class="container row mx-auto"></div>
+
+
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-auto">
+            <div class="col">
+                <div class="card">
+                    <img src="images/full stack devloper.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Full Stack Devloper</h5>
+                        <p class="card-text">Full Stack Java Developer course is designed to give you an essence of
+                            front-end, middleware, and back-end Java web developer technologies.full stack developer
+                            with MIT xPRO's one year online program. Gain hands-on coding skills and the MIT xPRO
+                            advantage in just one year. Apply now. MIT xPRO Advantage. Access to Job Portals.
+                            Flexible Payment Options. Career Mentorship.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/web designer.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Designer</h5>
+                        <p class="card-text">Web design encompasses many different skills and disciplines in the
+                            production and maintenance of websites. The different areas of web design include web
+                            graphic design; user interface design; authoring, including standardised code and
+                            proprietary software; user experience design; and search engine optimization. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/java devloper.jpg" class="card-img-top" alt="java devloper">
+                    <div class="card-body">
+                        <h5 class="card-title">Java Devloper</h5>
+                        <p class="card-text">A Java developer is a specialized programmer who collaborates with
+                            software engineers and web developers to integrate Java into business software,
+                            applications, and websites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/graphic designer.jpg" class="card-img-top" alt="graphic designer">
+                    <div class="card-body">
+                        <h5 class="card-title">Graphi Designer</h5>
+                        <p class="card-text">A graphic designer is a professional within the graphic design and
+                            graphic arts industry who assembles together images, typography, or motion graphics to
+                            create a piece of design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-info">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 mx-auto">
+                    <div class="container-fluid p-3">
+                        <h5> <i class="bi bi-person-lines-fill"></i> Contact Us: 7058900319 </h5>
+                        <h5> <i class="bi bi-chat-left-dots-fill"></i> Massage US</h5>
+                        <h5><i class="bi bi-whatsapp"></i> WhatsApp Me</h5>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mx-auto">
+                    <div class="container-fluid p-3">
+                        <h5><i class="bi bi-github"></i> GitHub: ShuebaliMomin</h5>
+                        <h5><i class="bi bi-envelope-fill"></i> Email Us: shuaibalimomin123@gmail.com </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</html>
